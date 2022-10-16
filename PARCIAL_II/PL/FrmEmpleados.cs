@@ -16,5 +16,10 @@ namespace PARCIAL_II.PL
         {
             InitializeComponent();
         }
+
+        private void FrmEmpleados_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

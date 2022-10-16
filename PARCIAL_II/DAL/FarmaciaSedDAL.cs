@@ -67,6 +67,11 @@ namespace PARCIAL_II.DAL
             }
         }
 
+        internal bool updatefarmacia_sedes(FarmaciaSedBLL sede)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool updatefarmacia_sedes(InfEmpleadosBLL far, FarmaciaSedBLL sede, MedicinaCompBLL medc, MedicinaTienBLL medt, MedicinaVentBLL medv)
         {
             try
@@ -91,6 +96,11 @@ namespace PARCIAL_II.DAL
             {
                 return false;
             }
+        }
+
+        internal bool deletefarmacia_sedes(FarmaciaSedBLL sede)
+        {
+            throw new NotImplementedException();
         }
 
         public bool deletefarmacia_sedes(FarmaciaSedDAL sede)

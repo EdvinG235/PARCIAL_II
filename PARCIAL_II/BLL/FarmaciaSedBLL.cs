@@ -18,6 +18,13 @@ namespace PARCIAL_II.BLL
             this.Id_sedes = id_sedes;
         }
 
+        public FarmaciaSedBLL(string nombre, string ubicacion, string email)
+        {
+            Nombre = nombre;
+            Ubicacion = ubicacion;
+            Email = email;
+        }
+
         public FarmaciaSedBLL(int id_sedes, string nombre_sede, string ubicacion_sede, string email_sede)
         {
             this.Id_sedes = id_sedes;
@@ -30,5 +37,8 @@ namespace PARCIAL_II.BLL
         public string Nombre_sede { get => nombre_sede; set => nombre_sede = value; }
         public string Ubicacion_sede { get => ubicacion_sede; set => ubicacion_sede = value; }
         public string Email_sede { get => email_sede; set => email_sede = value; }
+        public string Nombre { get; }
+        public string Ubicacion { get; }
+        public string Email { get; }
     }
 }

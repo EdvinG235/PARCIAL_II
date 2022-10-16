@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PARCIAL_II.PL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace PARCIAL_II
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FmrInicio());
         }
     }
 }

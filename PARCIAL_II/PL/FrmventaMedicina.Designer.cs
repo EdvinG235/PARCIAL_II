@@ -112,56 +112,56 @@ namespace PARCIAL_II.PL
             // txtIdventas
             // 
             this.txtIdventas.Location = new System.Drawing.Point(103, 5);
-            this.txtIdventas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtIdventas.Margin = new System.Windows.Forms.Padding(2);
             this.txtIdventas.Name = "txtIdventas";
-            this.txtIdventas.Size = new System.Drawing.Size(100, 20);
+            this.txtIdventas.Size = new System.Drawing.Size(224, 20);
             this.txtIdventas.TabIndex = 6;
             // 
             // txtIdproducto
             // 
             this.txtIdproducto.Location = new System.Drawing.Point(103, 38);
-            this.txtIdproducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtIdproducto.Margin = new System.Windows.Forms.Padding(2);
             this.txtIdproducto.Name = "txtIdproducto";
-            this.txtIdproducto.Size = new System.Drawing.Size(100, 20);
+            this.txtIdproducto.Size = new System.Drawing.Size(224, 20);
             this.txtIdproducto.TabIndex = 7;
             // 
             // txtIdempleado
             // 
             this.txtIdempleado.Location = new System.Drawing.Point(103, 72);
-            this.txtIdempleado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtIdempleado.Margin = new System.Windows.Forms.Padding(2);
             this.txtIdempleado.Name = "txtIdempleado";
-            this.txtIdempleado.Size = new System.Drawing.Size(100, 20);
+            this.txtIdempleado.Size = new System.Drawing.Size(224, 20);
             this.txtIdempleado.TabIndex = 8;
             // 
             // txtNombreProducto
             // 
             this.txtNombreProducto.Location = new System.Drawing.Point(103, 109);
-            this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.Size = new System.Drawing.Size(323, 20);
+            this.txtNombreProducto.Size = new System.Drawing.Size(224, 20);
             this.txtNombreProducto.TabIndex = 9;
             // 
             // txtcantidad
             // 
             this.txtcantidad.Location = new System.Drawing.Point(103, 145);
-            this.txtcantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtcantidad.Margin = new System.Windows.Forms.Padding(2);
             this.txtcantidad.Name = "txtcantidad";
-            this.txtcantidad.Size = new System.Drawing.Size(100, 20);
+            this.txtcantidad.Size = new System.Drawing.Size(224, 20);
             this.txtcantidad.TabIndex = 10;
             // 
             // txtPrecio
             // 
             this.txtPrecio.Location = new System.Drawing.Point(103, 176);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 20);
+            this.txtPrecio.Size = new System.Drawing.Size(224, 20);
             this.txtPrecio.TabIndex = 11;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(11, 242);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -171,7 +171,7 @@ namespace PARCIAL_II.PL
             // btnInsertar
             // 
             this.btnInsertar.Location = new System.Drawing.Point(42, 218);
-            this.btnInsertar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnInsertar.Margin = new System.Windows.Forms.Padding(2);
             this.btnInsertar.Name = "btnInsertar";
             this.btnInsertar.Size = new System.Drawing.Size(56, 19);
             this.btnInsertar.TabIndex = 13;
@@ -181,7 +181,7 @@ namespace PARCIAL_II.PL
             // btnActualizar
             // 
             this.btnActualizar.Location = new System.Drawing.Point(146, 219);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(65, 19);
             this.btnActualizar.TabIndex = 14;
@@ -192,7 +192,7 @@ namespace PARCIAL_II.PL
             // btnEliminar
             // 
             this.btnEliminar.Location = new System.Drawing.Point(263, 219);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(56, 19);
             this.btnEliminar.TabIndex = 15;
@@ -202,7 +202,7 @@ namespace PARCIAL_II.PL
             // btnCerrar
             // 
             this.btnCerrar.Location = new System.Drawing.Point(368, 218);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(56, 19);
             this.btnCerrar.TabIndex = 16;
@@ -213,7 +213,7 @@ namespace PARCIAL_II.PL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 385);
+            this.ClientSize = new System.Drawing.Size(623, 430);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
@@ -231,7 +231,7 @@ namespace PARCIAL_II.PL
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmventaMedicina";
             this.Text = "FrmventaMedicina";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
